@@ -91,7 +91,7 @@ public class IO {
 				System.out.println(VALORE_NON_VALIDO);
 				/*
 				 * Serve per cancellare l'input errato
-				 * nextLine() è meglio di next() perchè prende tutta la riga compresi eventuali spazi
+				 * nextLine() e' meglio di next() perche' prende tutta la riga compresi eventuali spazi
 				 * */
 				scan.nextLine();
 			} catch (Exception e) {
@@ -103,7 +103,7 @@ public class IO {
 	}
 
 	/**
-	 * Legge un valore intero inserito da tastiera e lo ritorna come int, se è compreso tra minimo e massimo
+	 * Legge un valore intero inserito da tastiera e lo ritorna come int, se e' compreso tra minimo e massimo
 	 * @param min - valore minimo (compreso)
 	 * @param max - valore massimo (compreso)
 	 * @return valore intero inserito, se valido
@@ -132,7 +132,7 @@ public class IO {
 	}
 
 	/**
-	 * Legge un valore intero inserito da tastiera e lo ritorna come int, se è maggiore del minimo
+	 * Legge un valore intero inserito da tastiera e lo ritorna come int, se e' maggiore del minimo
 	 * @param min - valore minimo (compreso)
 	 * @return valore intero inserito, se valido
 	 * */
@@ -184,7 +184,7 @@ public class IO {
 	}
 
 	/**
-	 * Legge un valore double inserito da tastiera e lo ritorna come double, se è compreso tra minimo e massimo
+	 * Legge un valore double inserito da tastiera e lo ritorna come double, se e' compreso tra minimo e massimo
 	 * @param min - valore minimo (compreso)
 	 * @param max - valore massimo (compreso)
 	 * @return valore double inserito, se valido
@@ -213,7 +213,7 @@ public class IO {
 	}
 
 	/**
-	 * Legge un valore double inserito da tastiera e lo ritorna come double, se è maggiore del minimo
+	 * Legge un valore double inserito da tastiera e lo ritorna come double, se e' maggiore del minimo
 	 * @param min - valore minimo (compreso)
 	 * @return valore double inserito, se valido
 	 * */

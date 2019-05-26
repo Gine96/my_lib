@@ -13,7 +13,7 @@ public class GestioneFile {
 	 * @return <code>Object</code> contenente i dati del file letto
 	 * */
 	public static Object caricaOggetto (File file){
-		//si usa Object perchè qualunque oggetto è sottoclasse di Object
+		//si usa Object perche' qualunque oggetto e' sottoclasse di Object
 		Object letto = null;
 		ObjectInputStream ingresso = null;
 

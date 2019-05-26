@@ -1,6 +1,6 @@
 package utils;
 /**
- * Classe utile per la gestione dei menù
+ * Classe utile per la gestione dei menu
  * */
 public class MyMenu {
 	//Fonte UniBSFpLib
@@ -11,7 +11,7 @@ public class MyMenu {
 	private String nome;
 
 	/**
-	 * @param _nome - nome del menù
+	 * @param _nome - nome del menu
 	 * @param _voci - elenco opzioni
 	 * */
 	public MyMenu(String _nome, String _voci[]) {
